@@ -1,0 +1,13 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Data Compliance
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
