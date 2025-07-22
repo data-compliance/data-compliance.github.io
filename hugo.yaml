@@ -4,6 +4,7 @@ baseURL: "https://data-compliance.github.io/hugo-PaperMod/"
 title: Data Compliance
 copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
 theme: ["PaperMod"]
+date: 2025-07-22
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
