@@ -2,4 +2,6 @@
 title: "Home"
 ---
 
-Welcome to the data compliance website. 
+# Data Compliant LLM Training
+
+WIP
