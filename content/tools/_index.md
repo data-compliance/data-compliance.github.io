@@ -2,22 +2,30 @@
 title: "Tools"
 ---
 
-To quantify the impact of web crawling opt-outs, we developed a methodology centered around the **data compliance gap (DCG)**. This metric serves as a tool to evaluate how respecting `robots.txt` directives affects LLM performance.
+# Filtering Tools
+We provide a tool designed to filter out data from URL domains that are restricted by robots.txt rules. This helps ensure compliance with web scraping policies by automatically excluding content from domains that prohibit crawler access.
 
-### Data Compliance Gap (DCG)
+Our curated URL lists are based on the FineWeb corpus. We identify the top 1 million URL domains and retrieve their corresponding robots.txt files as of January 2025. If any of the following crawlers are disallowed, we mark the associated data as blocked by robots.txt:
 
-The DCG is calculated as the performance difference between two models:
+```
+"AI2Bot",                        # AI2  
+"Applebot-Extended",            # Apple  
+"Bytespider",                   # Bytedance  
+"CCBot",                        # Common Crawl  
+"CCBot/2.0",                    # Common Crawl  
+"CCBot/1.0",                    # Common Crawl  
+"ClaudeBot",                    # Anthropic  
+"cohere-training-data-crawler", # Cohere  
+"Diffbot",                      # Diffbot  
+"Meta-ExternalAgent",           # Meta  
+"Google-Extended",              # Google  
+"GPTBot",                       # OpenAI  
+"PanguBot",                     # Huawei  
+"*"
+```
 
-1.  A model trained on a dataset that **ignores** web crawling opt-outs (including data from sources that have a `robots.txt` disallow rule).
-2.  A model trained on a **compliant** dataset that respects these opt-outs (excluding data from restricted sources).
+## Coarse-Grained Tool
+We offer two URL domain lists. If any of the listed crawlers are blocked in a domain’s robots.txt file, the domain is added to the list. We offer the robotstxt blocked URL domains for both [English 🤗](https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-english) and [Multilingual 🤗](https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-multilingual) pretraining corpus. 
 
-A larger DCG indicates a greater performance loss when adhering to data compliance standards.
-
-### Datasets
-
-Our research utilized datasets derived from **Common Crawl**, a publicly available web crawl corpus. We curated two versions of a pre-training dataset to measure the DCG:
-
--   **Open-License Text:** This dataset contains content exclusively from domains with permissive licenses, fully compliant with web standards.
--   **Opt-Out Text:** This dataset includes content from domains that have explicitly opted out of web crawling via `robots.txt`.
-
-By training models on different combinations of these datasets, we can isolate and measure the impact of data compliance on model capabilities in various domains. These datasets are foundational tools for our analysis. 
+## Fine-Grained Tool
+Since a single domain can include many subdomains—and not all subdomains necessarily follow the same robots.txt restrictions—we also support a more fine-grained filtering approach. (API to be added)
