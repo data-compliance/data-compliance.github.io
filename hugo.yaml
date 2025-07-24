@@ -74,7 +74,10 @@ params:
   # homeInfoParams:
   #   Title: "Hi there \U0001F44B"
   #   Content: Welcome to my blog
-
+  
+  disableKinds:
+    - sitemap
+    
   socialIcons:
     - name: x
       url: "https://x.com/"
