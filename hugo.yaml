@@ -77,7 +77,7 @@ params:
   
   disableKinds:
     - sitemap
-    
+
   socialIcons:
     - name: x
       url: "https://x.com/"
@@ -124,15 +124,15 @@ menu:
     - identifier: about
       name: About
       url: /about/
-      weight: 20
+      weight: 2
     - identifier: tools
       name: Tools
       url: /tools/
-      weight: 20
+      weight: 3
     - identifier: team
       name: Team
       url: /team/
-      weight: 20
+      weight: 4
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
