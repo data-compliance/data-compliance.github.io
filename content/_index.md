@@ -4,4 +4,4 @@ title: "Home"
 
 # Data Compliant LLM Training
 
-WIP
+Can today’s large language models succeed without trespassing on copyrighted data? 

@@ -13,6 +13,13 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+  home: ["HTML"]
+  page: ["HTML"]
+  section: ["HTML"]
+  taxonomy: ["HTML"]
+  taxonomyTerm: ["HTML"]
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
@@ -71,9 +78,9 @@ params:
         url: tags
 
   # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+  # homeInfoParams:
+  #   Title: "Hi there \U0001F44B"
+  #   Content: Welcome to my blog
 
   socialIcons:
     - name: x
@@ -118,14 +125,15 @@ menu:
       name: Home
       url: /
       weight: 1
-    - identifier: tools
-      name: Tools
-      url: /tools/
-      weight: 10
     - identifier: about
       name: About
       url: /about/
       weight: 20
+    - identifier: tools
+      name: Tools
+      url: /tools/
+      weight: 10
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
