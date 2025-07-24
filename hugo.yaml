@@ -118,18 +118,18 @@ menu:
       name: Home
       url: /
       weight: 1
-    # - identifier: about
-    #   name: About
-    #   url: /about/
-    #   weight: 20
-    # - identifier: tools
-    #   name: Tools
-    #   url: /tools/
-    #   weight: 10
-    # - identifier: team
-    #   name: Team
-    #   url: /team/
-    #   weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: tools
+      name: Tools
+      url: /tools/
+      weight: 20
+    - identifier: team
+      name: Team
+      url: /team/
+      weight: 20
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
