@@ -6,12 +6,14 @@
   </url><url>
     <loc>https://data-compliance.github.io/categories/</loc>
   </url><url>
-    <loc>https://data-compliance.github.io/</loc>
+    <loc>https://data-compliance.github.io/tools/</loc>
   </url><url>
-    <loc>https://data-compliance.github.io/tags/</loc>
+    <loc>https://data-compliance.github.io/</loc>
   </url><url>
     <loc>https://data-compliance.github.io/team/</loc>
   </url><url>
-    <loc>https://data-compliance.github.io/tools/</loc>
+    <loc>https://data-compliance.github.io/tags/</loc>
+  </url><url>
+    <loc>https://data-compliance.github.io/datasets/</loc>
   </url>
 </urlset>

@@ -1,14 +1,37 @@
 ---
-title: "Tools"
+title: "Compliance Filtering Tool"
 ---
 
-# Filtering Tools
-We provide a tool designed to filter out data from URL domains that are restricted by robots.txt rules. This helps ensure compliance with web scraping policies by automatically excluding content from domains that prohibit crawler access.
+We provide a comprehensive tool to help the AI community filter training data in compliance with robots.txt restrictions. Our tool is designed to be easy to use while ensuring respect for content creators' wishes.
+
+## 🎯 Why Use This Tool?
+
+- **Ethical AI Development**: Build models that respect content creators' rights
+- **Legal Compliance**: Avoid potential copyright issues in your training data
+- **Transparency**: Know exactly what data you're using
+
+## 🚫 Coarse-Grained Filtering
+
+### Pre-filtered Domain Lists
+
+We offer curated lists of domains that restrict AI crawlers in their robots.txt files. These lists are based on the top 1 million URL domains from the FineWeb corpus, checked as of January 2025.
+
+<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; margin: 1em 0; border: 1px solid var(--border);">
+
+#### 🇬🇧 English Corpus
+**[Download English Blocked Domains](https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-english)** 🤗 - 487K+ blocked domains
+
+#### 🌍 Multilingual Corpus  
+**[Download Multilingual Blocked Domains](https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-multilingual)** 🤗 - 333K+ blocked domains
+
+</div>
+
+### What's Included?
 
 Our curated URL lists are based on the FineWeb corpus. We identify the top 1 million URL domains and retrieve their corresponding robots.txt files as of January 2025. If any of the following crawlers are disallowed, we mark the associated data as blocked by robots.txt:
 
 ```
-"AI2Bot",                        # AI2  
+"AI2Bot",                       # AI2  
 "Applebot-Extended",            # Apple  
 "Bytespider",                   # Bytedance  
 "CCBot",                        # Common Crawl  
@@ -24,22 +47,35 @@ Our curated URL lists are based on the FineWeb corpus. We identify the top 1 mil
 "*"
 ```
 
-## Coarse-Grained Tool
-We offer two URL domain lists. If any of the listed crawlers are blocked in a domain’s robots.txt file, the domain is added to the list. We offer the robotstxt blocked URL domains for both [English 🤗](https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-english) and [Multilingual 🤗](https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-multilingual) pretraining corpus. 
+## 🔍 Fine-Grained Checking
 
-## Fine-Grained Tool
+### URL Compliance Checker
+
 A single domain can host many sub‑domains—and each one may follow a different robots.txt policy. Our robo‑checker package lets you zoom in to the exact URL and instantly see whether it plays by the rules.
 
-- Install the checker
-```shell
+### Installation
+
+```bash
 pip install Robo-Checker==0.1.0
 ```
 
-- Verify any URL
+### Usage
 
 ```python
 import url_checker
 checker = url_checker.RobotsTxtComplianceChecker()
 status = checker.is_compliant("https://blog.example.com/some-page")
 print(status)   # ➜  "Compliant"  or  "NonCompliant"
+```
+
+## 📄 Citation
+
+```bibtex
+@inproceedings{fan2025compliance,
+  title={Can Performant LLMs Be Ethical? Quantifying the Impact of Web Crawling Opt-Outs},
+  author={Fan, Dongyang and Sabolčec, Vinko and Ansaripour, Matin and 
+          Tarun, Ayush Kumar and Jaggi, Martin and Bosselut, Antoine and Schlag, Imanol},
+  booktitle={Conference on Language Modeling (COLM)},
+  year={2025}
+}
 ```
