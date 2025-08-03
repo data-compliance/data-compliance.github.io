@@ -6,7 +6,7 @@ title: "About the Data Compliance Project"
 <div style="background: var(--code-bg); padding: 1.5em; border-left: 5px solid var(--primary); margin-bottom: 2em; border-radius: 0 8px 8px 0;">
 <h2 style="margin-top: 0; color: var(--primary);">🇨🇭 Swiss AI Initiative</h2>
 <p style="font-size: 1.1em; margin-bottom: 0.8em;">
-This project was developed as part of the <a href="https://www.swiss-ai.org/" target="_blank">Swiss AI Initiative</a> to create compliance-filtered training data for Swiss AI models. Our goal is to ensure that Swiss AI development adheres to the highest ethical standards by respecting content creators' rights and web crawling restrictions.
+This project was developed as part of the <a href="https://www.swiss-ai.org/" target="_blank">Swiss AI Initiative</a> to create compliant training data for Swiss AI models. Our goal is to ensure that Swiss AI development adheres to the highest ethical standards by respecting content creators' rights and web crawling restrictions.
 </p>
 <p style="margin-bottom: 0.8em;">
 The Swiss AI Initiative is the largest open science/open source effort for AI foundation models worldwide, leveraging the world's most AI-capable supercomputer Alps by the National Supercomputing Center (CSCS) with over 10,000 GPUs of the new NVIDIA Grace Hopper superchip.

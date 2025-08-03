@@ -14,7 +14,7 @@ We provide a comprehensive tool to help the AI community filter training data in
 
 ### Retrospective Compliance Filtering
 
- We identify the top 1 million URL domains and retrieve their corresponding robots.txt files as of January 2025. Based on the robots.txt content, we provide coarse-grained and fine-grained compliance filtering. By compliance filtering, we evaluates robots.txt rules specifically for AI training user agents, as shown in the list below. 
+ We identify the top 1 million English and Non-English URL domains and retrieve their corresponding robots.txt files as of January 2025. We evaluates robots.txt rules specifically for AI training user agents, as shown in the list below. 
 
 ```
 "AI2Bot",                       # AI2  
@@ -37,7 +37,7 @@ We provide a comprehensive tool to help the AI community filter training data in
 
 ### Pre-filtered Domain Lists
 
-We offer curated lists of URL domains that restrict AI crawlers in their robots.txt files. These lists are based on the top 1 million URL domains from the FineWeb corpus, checked as of January 2025. If any of the sub-domains are restricted, the URL domain is added to the list. 
+We provide curated lists of URL domains that restrict AI crawlers in their robots.txt files. If any subdomain of a given domain disallows crawling by any AI training user agent, that domain is included in the list.
 
 <div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; margin: 1em 0; border: 1px solid var(--border);">
 
@@ -51,17 +51,16 @@ We offer curated lists of URL domains that restrict AI crawlers in their robots.
 
 
 
-
 ## 🔍 Fine-Grained Checking
 
 ### URL Compliance Checker
 
-A single domain can host many sub‑domains—and each one may follow a different robots.txt policy. Our `robots-checker` package lets you zoom in to the exact URL and instantly see whether it plays by the rules.
+A single domain can host many sub‑domains—and each one may follow a different robots.txt policy. Our [`robots-checker`](https://pypi.org/project/robots-checker/1.2.3/) package lets you zoom in to the exact URL and instantly see whether it plays by the rules.
 
 ### Installation
 
 ```bash
-pip install robots-checker==1.2.0
+pip install robots-checker==1.2.3
 ```
 
 ### Usage
@@ -83,7 +82,7 @@ Due to data distribution restrictions, we are unable to directly upload the filt
 ## 📄 Citation
 
 ```bibtex
-@inproceedings{fan2025compliance,
+@inproceedings{fan2025datacompliance,
   title={Can Performant LLMs Be Ethical? Quantifying the Impact of Web Crawling Opt-Outs},
   author={Fan, Dongyang and Sabolčec, Vinko and Ansaripour, Matin and 
           Tarun, Ayush Kumar and Jaggi, Martin and Bosselut, Antoine and Schlag, Imanol},
