@@ -43,17 +43,21 @@ We provide open-source tools and datasets to help the AI community:
 ### 📊 Our Research
 
 We introduce the Data Compliance Gap (DCG), a metric that quantifies the performance difference between:
-- ✅ **Compliant models**: Trained only on data that respects robots.txt opt-outs
-- ❌ **Non-compliant models**: Trained on all available web data
+<ul style="margin: 0.5em 0; list-style-type: none;">
+<li>✅ Compliant models, trained only on data that respects robots.txt opt-outs.</li>
+<li>❌ Non-compliant models, trained on all available web data.</li>
+</ul>
 
 ### 🔍 Key Findings
 
 **General Knowledge**: Close to 0% DCG, LLMs can achieve comparable performance using only openly available data
 
 **Specialized Domains**: Noticeable gaps in areas like:
-- 🏥 Biomedical research
-- 📰 Structural knowledge formats
-- 🛡️ Robustness against adversarial examples
+<ul style="margin: 0.5em 0; list-style-type: none;">
+<li>🏥 Biomedical research</li>
+<li>📰 Structural knowledge formats</li>
+<li>🛡️ Robustness against adversarial examples</li>
+</ul>
 
 ### Available Indices & Resources
 
@@ -63,7 +67,7 @@ We introduce the Data Compliance Gap (DCG), a metric that quantifies the perform
 <div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
 <h4>🗂️ Compliant Indexing</h4>
 <p>Indices of compliant documents that respect robots.txt for FineWeb family datasets:</p>
-<ul style="margin: 0.5em 0;">
+<ul style="margin: 0.5em 0; list-style-type: none;">
 <li><strong>🍷 FineWeb</strong></li>
 <li><strong>🥂 FineWeb2</strong></li>
 <li><strong>📚 FineWeb-Edu</strong></li>
