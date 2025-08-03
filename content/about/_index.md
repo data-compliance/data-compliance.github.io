@@ -72,6 +72,6 @@ All datasets and tools are released under **TODO** license.
 
 🛠️ [**Get started with the tool →**](/tools/)
 
-🗂️ [**Datasets →**](/datasets/)
+🗂️ [**Compliant Indexing →**](/datasets/)
 
 👥 [**Meet the team →**](/team/)

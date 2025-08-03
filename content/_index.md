@@ -32,10 +32,10 @@ As more content owners opt-out of web crawling for AI training, a critical quest
 
 <div style="background: var(--entry); padding: 1.5em; border-radius: 8px; margin: 1em 0; border: 1px solid var(--border);">
 
-We provide open-source tool and datasets to help the AI community:
+We provide open-source tools and datasets to help the AI community:
 
 - Check URL compliance and filter training data to respect robots.txt restrictions
-- Compliant versions of popular datasets (FineWeb, FineWeb2, FineWeb-Edu)
+- Compliant indexing of popular datasets (FineWeb, FineWeb2, FineWeb-Edu)
 - 487K+ English and 333K+ multilingual domains that restrict AI crawlers
 
 </div>
@@ -55,21 +55,21 @@ We introduce the Data Compliance Gap (DCG), a metric that quantifies the perform
 - 📰 Structural knowledge formats
 - 🛡️ Robustness against adversarial examples
 
-### Available Datasets & Resources
+### Available Indices & Resources
 
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1em; margin: 2em 0;">
 
 <div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
-<h4>🗂️ Compliant Corpora</h4>
-<p>Pre-filtered training datasets that respect robots.txt:</p>
+<h4>🗂️ Compliant Indexing</h4>
+<p>Indices of compliant documents that respect robots.txt for FineWeb family datasets:</p>
 <ul style="margin: 0.5em 0;">
-<li><strong>🍷 FineWeb Compliant</strong></li>
-<li><strong>🥂 FineWeb2 Compliant</strong></li>
-<li><strong>📚 FineWeb-Edu Compliant</strong></li>
+<li><strong>🍷 FineWeb</strong></li>
+<li><strong>🥂 FineWeb2</strong></li>
+<li><strong>📚 FineWeb-Edu</strong></li>
 
 </ul>
-<a href="/datasets/" style="color: var(--primary);">Browse Datasets →</a>
+<a href="/datasets/" style="color: var(--primary);">Browse Indexings →</a>
 </div>
 
 <div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">

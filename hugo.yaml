@@ -16,13 +16,13 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Data Compliance
-  description: "Measuring the impact of web crawling opt-outs on Large Language Model performance"
-  keywords: [LLM, Data Compliance, Robots.txt, AI Ethics, Machine Learning, Fair Use]
+  description: "Developing Compliant LLM Training Data Respecting Content Owners Opt-out"
+  keywords: [LLMs, Data Compliance, Robots.txt Opt-out, Responsible AI, AI and Fair Use]
   author: ["Dongyang Fan", "Vinko Sabolčec", "Matin Ansaripour", "Ayush Kumar Tarun", "Martin Jaggi", "Antoine Bosselut", "Imanol Schlag"]
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: dark # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -128,7 +128,7 @@ menu:
       url: /tools/
       weight: 3
     - identifier: datasets
-      name: Datasets
+      name: Indexing
       url: /datasets/
       weight: 4
     - identifier: team
