@@ -128,7 +128,7 @@ menu:
       url: /tools/
       weight: 3
     - identifier: datasets
-      name: Indexing
+      name: Indexings
       url: /datasets/
       weight: 4
     - identifier: team
