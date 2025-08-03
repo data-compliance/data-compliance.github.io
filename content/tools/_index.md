@@ -2,7 +2,9 @@
 title: "Compliance Filtering Tool"
 ---
 
-We provide a comprehensive tool to help the AI community filter training data in compliance with robots.txt restrictions. Our tool is designed to be easy to use while ensuring respect for content creators' wishes.
+We provide a comprehensive tool to help the AI community filter training data in compliance with robots.txt restrictions. Our tool is designed to be easy to use while ensuring respect for content creators' wishe via Robots.txt.
+
+
 
 ## 🎯 Why Use This Tool?
 
@@ -10,25 +12,9 @@ We provide a comprehensive tool to help the AI community filter training data in
 - **Legal Compliance**: Avoid potential copyright issues in your training data
 - **Transparency**: Know exactly what data you're using
 
-## 🚫 Coarse-Grained Filtering
+### Retrospective Compliance Filtering
 
-### Pre-filtered Domain Lists
-
-We offer curated lists of domains that restrict AI crawlers in their robots.txt files. These lists are based on the top 1 million URL domains from the FineWeb corpus, checked as of January 2025.
-
-<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; margin: 1em 0; border: 1px solid var(--border);">
-
-#### 🇬🇧 English Corpus
-**[Download English Blocked Domains](https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-english)** 🤗 - 487K+ blocked domains
-
-#### 🌍 Multilingual Corpus  
-**[Download Multilingual Blocked Domains](https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-multilingual)** 🤗 - 333K+ blocked domains
-
-</div>
-
-### What's Included?
-
-Our curated URL lists are based on the FineWeb corpus. We identify the top 1 million URL domains and retrieve their corresponding robots.txt files as of January 2025. If any of the following crawlers are disallowed, we mark the associated data as blocked by robots.txt:
+ We identify the top 1 million URL domains and retrieve their corresponding robots.txt files as of January 2025. Based on the robots.txt content, we provide coarse-grained and fine-grained compliance filtering. By compliance filtering, we evaluates robots.txt rules specifically for AI training user agents, as shown in the list below. 
 
 ```
 "AI2Bot",                       # AI2  
@@ -47,16 +33,35 @@ Our curated URL lists are based on the FineWeb corpus. We identify the top 1 mil
 "*"
 ```
 
+## 🚫 Coarse-Grained Filtering
+
+### Pre-filtered Domain Lists
+
+We offer curated lists of URL domains that restrict AI crawlers in their robots.txt files. These lists are based on the top 1 million URL domains from the FineWeb corpus, checked as of January 2025. If any of the sub-domains are restricted, the URL domain is added to the list. 
+
+<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; margin: 1em 0; border: 1px solid var(--border);">
+
+#### 🇬🇧 English Corpus
+**[Download English Blocked Domains](https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-english)** 🤗 - 487K+ blocked domains
+
+#### 🌍 Multilingual Corpus  
+**[Download Multilingual Blocked Domains](https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-multilingual)** 🤗 - 333K+ blocked domains
+
+</div>
+
+
+
+
 ## 🔍 Fine-Grained Checking
 
 ### URL Compliance Checker
 
-A single domain can host many sub‑domains—and each one may follow a different robots.txt policy. Our robo‑checker package lets you zoom in to the exact URL and instantly see whether it plays by the rules.
+A single domain can host many sub‑domains—and each one may follow a different robots.txt policy. Our `robots-checker` package lets you zoom in to the exact URL and instantly see whether it plays by the rules.
 
 ### Installation
 
 ```bash
-pip install Robo-Checker==0.1.0
+pip install robots-checker==1.2.0
 ```
 
 ### Usage
@@ -67,6 +72,13 @@ checker = url_checker.RobotsTxtComplianceChecker()
 status = checker.is_compliant("https://blog.example.com/some-page")
 print(status)   # ➜  "Compliant"  or  "NonCompliant"
 ```
+
+Additionally, we offer fine-grained data filtering codes in our [github](https://github.com/swiss-ai/robots-txt-compliance), which is based on [Datatrove](https://github.com/huggingface/datatrove). 
+
+
+### Document-wise compliance tag
+
+Due to data distribution restrictions, we are unable to directly upload the filterd dataset, however, we provide a document-wise compliance tag for easy filtering. For each document in the FineWeb family, we tag it as either compliant or non-compliant. 
 
 ## 📄 Citation
 

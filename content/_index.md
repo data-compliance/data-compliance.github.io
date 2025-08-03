@@ -6,7 +6,7 @@ title: "Data Compliance"
 
 
 <div style="text-align: center; background: var(--code-bg); padding: 1em; border-radius: 8px; margin: 1em 0; border: 1px solid var(--border);">
-<strong>Developing Compliant LLM Training Data Respecting Content Owners Opt-out</strong>
+<strong>Developing Compliant LLM Training Data Respecting Data Owners Opt-out</strong>
 </div>
 
 <div style="text-align: center; margin: 1.5em 0;">
@@ -14,8 +14,8 @@ title: "Data Compliance"
 <a href="https://arxiv.org/abs/2504.06219" target="_blank" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3); transition: transform 0.2s, box-shadow 0.2s;">
 📄 Paper
 </a>
-<a href="#todo-github" style="background: linear-gradient(135deg, #24292e 0%, #1f2328 100%); color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; box-shadow: 0 4px 15px rgba(36, 41, 46, 0.3); transition: transform 0.2s, box-shadow 0.2s;">
-🐙 GitHub - TODO
+<a href="https://github.com/swiss-ai/robots-txt-compliance" style="background: linear-gradient(135deg, #24292e 0%, #1f2328 100%); color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; box-shadow: 0 4px 15px rgba(36, 41, 46, 0.3); transition: transform 0.2s, box-shadow 0.2s;">
+🐙 GitHub
 </a>
 <a href="https://huggingface.co/collections/swiss-ai/robots-txt-688d64b8e78f8c16284cf2e2" target="_blank" style="background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%); color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3); transition: transform 0.2s, box-shadow 0.2s;">
 🤗 Hugging Face
@@ -35,7 +35,7 @@ As more content owners opt-out of web crawling for AI training, a critical quest
 We provide open-source tools and datasets to help the AI community:
 
 - Check URL compliance and filter training data to respect robots.txt restrictions
-- Compliant indexing of popular datasets (FineWeb, FineWeb2, FineWeb-Edu)
+- Convenient document-wise compliance status of popular datasets (FineWeb, FineWeb2, FineWeb-Edu)
 - 487K+ English and 333K+ multilingual domains that restrict AI crawlers
 
 </div>
@@ -65,8 +65,8 @@ We introduce the Data Compliance Gap (DCG), a metric that quantifies the perform
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1em; margin: 2em 0;">
 
 <div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
-<h4>🗂️ Compliant Indexing</h4>
-<p>Indices of compliant documents that respect robots.txt for FineWeb family datasets:</p>
+<h4>🗂️ Compliance Tagging</h4>
+<p>Instance-wise compliance tag for FineWeb family datasets:</p>
 <ul style="margin: 0.5em 0; list-style-type: none;">
 <li><strong>🍷 FineWeb</strong></li>
 <li><strong>🥂 FineWeb2</strong></li>
