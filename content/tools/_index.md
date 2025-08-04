@@ -72,7 +72,7 @@ status = checker.is_compliant("https://blog.example.com/some-page")
 print(status)   # ➜  "Compliant"  or  "NonCompliant"
 ```
 
-Additionally, we offer fine-grained data filtering codes in our [github](https://github.com/swiss-ai/robots-txt-compliance), which is based on [Datatrove](https://github.com/huggingface/datatrove). 
+Additionally, we offer fine-grained data filtering codes using the checker in our [github](https://github.com/swiss-ai/robots-txt-compliance), which is based on [Datatrove](https://github.com/huggingface/datatrove). 
 
 
 ### Document-wise compliance tag

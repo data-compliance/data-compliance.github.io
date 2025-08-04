@@ -14,7 +14,7 @@ title: "Data Compliance"
 <a href="https://arxiv.org/abs/2504.06219" target="_blank" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3); transition: transform 0.2s, box-shadow 0.2s;">
 📄 Paper
 </a>
-<a href="https://github.com/swiss-ai/robots-txt-compliance" style="background: linear-gradient(135deg, #24292e 0%, #1f2328 100%); color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; box-shadow: 0 4px 15px rgba(36, 41, 46, 0.3); transition: transform 0.2s, box-shadow 0.2s;">
+<a href="https://github.com/swiss-ai/robots-txt-compliance" style="background: linear-gradient(135deg,rgb(25, 83, 141) 0%,rgb(25, 49, 79) 100%); color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; box-shadow: 0 4px 15px rgba(55, 126, 225, 0.5); transition: transform 0.2s, box-shadow 0.2s;">
 🐙 GitHub
 </a>
 <a href="https://huggingface.co/collections/swiss-ai/robots-txt-688d64b8e78f8c16284cf2e2" target="_blank" style="background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%); color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3); transition: transform 0.2s, box-shadow 0.2s;">
@@ -65,18 +65,6 @@ We introduce the Data Compliance Gap (DCG), a metric that quantifies the perform
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1em; margin: 2em 0;">
 
 <div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
-<h4>🗂️ Compliance Tagging</h4>
-<p>Instance-wise compliance tag for FineWeb family datasets:</p>
-<ul style="margin: 0.5em 0; list-style-type: none;">
-<li><strong>🍷 FineWeb</strong></li>
-<li><strong>🥂 FineWeb2</strong></li>
-<li><strong>📚 FineWeb-Edu</strong></li>
-
-</ul>
-<a href="/datasets/" style="color: var(--primary);">Browse Indexings →</a>
-</div>
-
-<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
 <h4>🚫 Blocked Domain Lists</h4>
 <p>Comprehensive lists of restricted domains:</p>
 <ul style="margin: 0.5em 0;">
@@ -85,6 +73,31 @@ We introduce the Data Compliance Gap (DCG), a metric that quantifies the perform
 </ul>
 <a href="/tools/#-coarse-grained-filtering" style="color: var(--primary);">Access Lists →</a>
 </div>
+
+
+<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
+<h4>🧐 Robots.txt Compliance Checker</h4>
+<p>Check any URL of your interest where it's compliant</p>
+<ul style="margin: 0.5em 0; list-style-type: none;">
+<li><strong>🗓️ Retrospective compliance</strong></li>
+
+
+</ul>
+<a href="https://pypi.org/project/robots-checker/" style="color: var(--primary);">Install the checker →</a>
+</div>
+
+<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
+<h4>🗂️ Compliance Tagging</h4>
+<p>Instance-wise compliance tag for FineWeb family datasets:</p>
+<ul style="margin: 0.5em 0; list-style-type: none;">
+<li><strong>🍷 FineWeb</strong></li>
+<li><strong>🥂 FineWeb2</strong></li>
+<li><strong>📚 FineWeb-Edu</strong></li>
+
+</ul>
+<a href="/datasets/" style="color: var(--primary);">Browse Tags →</a>
+</div>
+
 
 </div>
 
