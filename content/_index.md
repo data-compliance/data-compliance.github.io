@@ -62,9 +62,9 @@ We introduce the Data Compliance Gap (DCG), a metric that quantifies the perform
 ### Available Indices & Resources
 
 
-<!-- <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1em; margin: 2em 0;">
- -->
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1em; margin: 2em 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1em; margin: 2em 0;">
+
+<!-- <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1em; margin: 2em 0;"> -->
 
 <div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
 <h4>🚫 Blocked Domain Lists</h4>
@@ -79,7 +79,7 @@ We introduce the Data Compliance Gap (DCG), a metric that quantifies the perform
 
 <div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
 <h4>🧐 Robots.txt Compliance Checker</h4>
-<p>Check any URL of your interest where it's compliant</p>
+<p>Check any URL of your interest whether it's compliant</p>
 <ul style="margin: 0.5em 0; list-style-type: none;">
 <li><strong>🗓️ Retrospective compliance</strong></li>
 
@@ -88,7 +88,7 @@ We introduce the Data Compliance Gap (DCG), a metric that quantifies the perform
 <a href="https://pypi.org/project/robots-checker/" style="color: var(--primary);">Install the checker →</a>
 </div>
 
-<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
+<!-- <div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
 <h4>🗂️ Compliance Tagging</h4>
 <p>Instance-wise compliance tag for FineWeb family datasets:</p>
 <ul style="margin: 0.5em 0; list-style-type: none;">
@@ -98,7 +98,7 @@ We introduce the Data Compliance Gap (DCG), a metric that quantifies the perform
 
 </ul>
 <a href="/datasets/" style="color: var(--primary);">Browse Tags →</a>
-</div>
+</div> -->
 
 
 </div>
