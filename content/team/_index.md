@@ -136,7 +136,7 @@ We are a collaborative team from EPFL and ETH Zürich working as part of the [Sw
 <img src="/authors/Dongyang.png" alt="Dongyang Fan">
 <h3>Dongyang Fan</h3>
 <div class="affiliation">EPFL</div>
-<a href="https://fan1dy.github.io/" class="website-link">personal website</a>
+<a href="https://fan1dy.github.io/" class="website-link"></a>
 </div>
 
 <div class="team-member">
