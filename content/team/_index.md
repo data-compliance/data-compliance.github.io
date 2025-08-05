@@ -153,33 +153,33 @@ We are a collaborative team from EPFL and ETH Zürich working as part of the [Sw
 <a href="mailto:matin.ansaripour@epfl.ch" class="email-link">matin.ansaripour@epfl.ch</a>
 </div>
 
-<div class="team-member">
+<a href="https://ayushkumartarun.github.io/" class="team-member" style="text-decoration: none; color: inherit;" target="_blank">
 <img src="/authors/Ayush.jpg" alt="Ayush Kumar Tarun">
 <h3>Ayush Kumar Tarun</h3>
 <div class="affiliation">EPFL</div>
-<a href="https://ayushkumartarun.github.io/" class="website-link">personal website</a>
-</div>
+<!-- <a href="https://ayushkumartarun.github.io/" class="website-link">personal website</a> -->
+</a>
 
-<div class="team-member">
+<a href="https://people.epfl.ch/martin.jaggi" class="team-member" style="text-decoration: none; color: inherit;" target="_blank">
 <img src="/authors/Martin.jpeg" alt="Martin Jaggi">
 <h3>Martin Jaggi</h3>
 <div class="affiliation">EPFL</div>
 <a href="mailto:martin.jaggi@epfl.ch" class="email-link">martin.jaggi@epfl.ch</a>
-</div>
+</a>
 
-<div class="team-member">
+<a href="https://atcbosselut.github.io/" class="team-member" style="text-decoration: none; color: inherit;" target="_blank">
 <img src="/authors/antoine.jpg" alt="Antoine Bosselut">
 <h3>Antoine Bosselut</h3>
 <div class="affiliation">EPFL</div>
-<a href="https://atcbosselut.github.io/" class="website-link">personal website</a>
-</div>
+<!-- <a href="https://atcbosselut.github.io/" class="website-link">personal website</a> -->
+</a>
 
-<div class="team-member">
+<a href="https://ischlag.github.io/" class="team-member" style="text-decoration: none; color: inherit;" target="_blank">
 <img src="/authors/imanol.jpeg" alt="Imanol Schlag">
 <h3>Imanol Schlag</h3>
 <div class="affiliation">ETH Zürich</div>
-<a href="https://ischlag.github.io/" class="website-link">personal website</a>
-</div>
+<!-- <a href="https://ischlag.github.io/" class="website-link">personal website</a> -->
+</a>
 
 </div>
 
