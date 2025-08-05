@@ -2,7 +2,7 @@
 title: "Compliance Filtering Tool"
 ---
 
-We provide a comprehensive tool to help the AI community filter training data in compliance with robots.txt restrictions. Our tool is designed to be easy to use while ensuring respect for content creators' wishe via robots.txt.
+We provide a comprehensive tool to help the AI community filter training data in compliance with robots.txt restrictions. Our tool is designed to be easy to use while ensuring respect for content creators' wishes via robots.txt.
 
 
 
