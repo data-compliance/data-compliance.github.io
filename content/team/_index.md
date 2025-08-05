@@ -190,16 +190,9 @@ For questions about our research, tools, or datasets, please contact [dongyang.f
 
 
 
-## Acknowledgments
+## Acknowledgment
 
-We gratefully acknowledge the support of:
-- Swiss National Science Foundation (No. 215390)
-- Innosuisse (PFFS-21-29)
-- EPFL Center for Imaging
-- Sony Group Corporation
-- Meta LLM Evaluation Research Grant
-- Swiss National Supercomputing Centre (CSCS) under project ID a06 on Alps
-
+DF would like to thank Maksym Andriushchenko for his feedback on an initial draft of the paper. DF acknowledges funding from SNSF Grant number 10005248. AB gratefully acknowledges the support of the Swiss National Science Foundation (No. 215390), Innosuisse (PFFS-21-29), the EPFL Center for Imaging, Sony Group Corporation, and a Meta LLM Evaluation Research Grant. This work was supported as part of the Swiss AI Initiative by a grant from the Swiss National Supercomputing Centre (CSCS) under project ID a06 on Alps.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 3em; margin: 2em 0; padding: 2em; background-color: var(--tertiary); border-radius: 8px;">
 <a href="https://www.swiss-ai.org/" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 200px; height: 100px; text-decoration: none !important; border: none !important; box-shadow: none !important;">

@@ -28,6 +28,10 @@ The success of Large Language Models (LLMs) heavily depends on web-scale data. H
 - What is the actual impact of excluding copyrighted content from training data?
 - Which domains are most affected by compliance requirements?
 
+### 📑 What Does "Compliant" Mean?
+
+We consider a dataset compliant if it was fetched according to the robots.txt rules in place at the time of crawling (CommonCrawl already follows this), and if the site still allows AI training today, which is the main focus of this work. To enforce this, we conduct a retrospective check that removes any domain whose robots.txt currently blocks any of the AI-specific crawlers.
+
 ### 🔬 Our Approach
 
 We introduce the Data Compliance Gap (DCG), a metric that quantifies the performance difference between:
@@ -39,7 +43,7 @@ We measure DCG in two settings:
 - **Pre-training from scratch**: Training models entirely on compliant vs. non-compliant data
 - **Continual pre-training**: Integrating restricted data at later training stages
 
-### 🎯 Key Findings
+### 📌 Key Findings
 
 Our experiments with 1.5B parameter models reveal:
 
@@ -71,7 +75,5 @@ All datasets and tools are released under **TODO** license.
 📄 [**Read the full paper →**](https://arxiv.org/abs/2504.06219)
 
 🛠️ [**Get started with the tool →**](/tools/)
-
-🗂️ [**Compliant Indexing →**](/datasets/)
 
 👥 [**Meet the team →**](/team/)

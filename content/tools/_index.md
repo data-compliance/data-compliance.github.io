@@ -2,11 +2,11 @@
 title: "Compliance Filtering Tool"
 ---
 
-We provide a comprehensive tool to help the AI community filter training data in compliance with robots.txt restrictions. Our tool is designed to be easy to use while ensuring respect for content creators' wishe via Robots.txt.
+We provide a comprehensive tool to help the AI community filter training data in compliance with robots.txt restrictions. Our tool is designed to be easy to use while ensuring respect for content creators' wishe via robots.txt.
 
 
 
-## 🎯 Why Use This Tool?
+### Why Use This Tool?
 
 - **Ethical AI Development**: Build models that respect content creators' rights
 - **Legal Compliance**: Avoid potential copyright issues in your training data
@@ -14,7 +14,9 @@ We provide a comprehensive tool to help the AI community filter training data in
 
 ### Retrospective Compliance Filtering
 
- We identify the top 1 million English and Non-English URL domains and retrieve their corresponding robots.txt files as of January 2025. We evaluates robots.txt rules specifically for AI training user agents, as shown in the list below. 
+We first rank domains based on the amount of data they provide to the corpus. Then, we select the top 1 million English domains and the top 1 million non-English domains. Some of these domains are now offline, and there is some overlap between the two lists. As a result, the total number of robots.txt files we could successfully download is much less than 2 million.
+
+For every domain that is still reachable we retrieve the robots.txt file as of January 2025 and evaluate the rules that are relevant for AI training. Specifically, we look at the directives that apply to the AI-specific user agents listed below. 
 
 ```
 "AI2Bot",                       # AI2  
@@ -33,9 +35,7 @@ We provide a comprehensive tool to help the AI community filter training data in
 "*"
 ```
 
-## 🚫 Coarse-Grained Filtering
-
-### Pre-filtered Domain Lists
+## 🚫 Pre-filtered Domain Lists
 
 We provide curated lists of URL domains that restrict AI crawlers in their robots.txt files. If any subdomain of a given domain disallows crawling by any AI training user agent, that domain is included in the list.
 
@@ -51,9 +51,7 @@ We provide curated lists of URL domains that restrict AI crawlers in their robot
 
 
 
-## 🔍 Fine-Grained Checking
-
-### URL Compliance Checker
+## 🔍 URL Compliance Checker
 
 A single domain can host many sub‑domains—and each one may follow a different robots.txt policy. Our [`robots-checker`](https://pypi.org/project/robots-checker/1.2.3/) package lets you zoom in to the exact URL and instantly see whether it plays by the rules.
 
@@ -75,9 +73,36 @@ print(status)   # ➜  "Compliant"  or  "NonCompliant"
 Additionally, we offer fine-grained data filtering codes using the checker in our [github](https://github.com/swiss-ai/robots-txt-compliance), which is based on [Datatrove](https://github.com/huggingface/datatrove). 
 
 
-### Document-wise compliance tag
+## 🗂️ Document-wise Compliance Tag
 
-Due to data distribution restrictions, we are unable to directly upload the filterd dataset, however, we provide a document-wise compliance tag for easy filtering. For each document in the FineWeb family, we tag it as either compliant or non-compliant. 
+Due to data distribution restrictions, we are unable to directly upload the filterd dataset, however, we provide a document-wise compliance tag for easy filtering. For each document in the FineWeb family, we tag it as either compliant or non-compliant.
+
+<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; margin: 1em 0; border: 1px solid var(--border);">
+
+### 🍷 FineWeb Compliant Tag
+**[swiss-ai/fineweb-compliant-tag](https://huggingface.co/datasets/swiss-ai/fineweb-compliant-tag)** 🤗
+
+- Base Dataset: [HuggingFaceFW/fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb) 🤗
+
+</div>
+
+<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; margin: 1em 0; border: 1px solid var(--border);">
+
+### 🥂 FineWeb2 Compliant Tag
+**[swiss-ai/fineweb-2-compliant-tag](https://huggingface.co/datasets/swiss-ai/fineweb-2-compliant-tag)** 🤗
+
+- Base Dataset: [HuggingFaceFW/fineweb-2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) 🤗
+
+</div>
+
+<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; margin: 1em 0; border: 1px solid var(--border);">
+
+### 📚 FineWeb-Edu Compliant Tag
+**[swiss-ai/fineweb-edu-compliant-tag](https://huggingface.co/datasets/swiss-ai/fineweb-edu-compliant-tag)** 🤗
+
+- Base Dataset: [HuggingFaceFW/fineweb-edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) 🤗
+
+</div>
 
 ## 📄 Citation
 

@@ -127,18 +127,14 @@ menu:
       name: Tools
       url: /tools/
       weight: 3
-    - identifier: datasets
-      name: Indexings
-      url: /datasets/
-      weight: 4
     - identifier: team
       name: Team
       url: /team/
-      weight: 5
+      weight: 4
     - identifier: paper
       name: Paper
       url: https://arxiv.org/abs/2504.06219
-      weight: 6
+      weight: 5
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

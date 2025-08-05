@@ -32,7 +32,7 @@ As more content owners opt-out of web crawling for AI training, a critical quest
 
 <div style="background: var(--entry); padding: 1.5em; border-radius: 8px; margin: 1em 0; border: 1px solid var(--border);">
 
-We provide open-source tools and datasets to help the AI community:
+We provide open-source tools and datasets to help the AI community.
 
 - Check URL compliance and filter training data to respect robots.txt restrictions
 - Convenient document-wise compliance status of popular datasets (FineWeb, FineWeb2, FineWeb-Edu)
@@ -50,34 +50,34 @@ We introduce the Data Compliance Gap (DCG), a metric that quantifies the perform
 
 ### 🔍 Key Findings
 
-**General Knowledge**: Close to 0% DCG, LLMs can achieve comparable performance using only openly available data
+**General Knowledge.** Close to 0% DCG, LLMs can achieve comparable performance using only openly available data.
 
-**Specialized Domains**: Noticeable gaps in areas like:
+**Specialized Domains.** Noticeable DCG in areas like:
 <ul style="margin: 0.5em 0; list-style-type: none;">
 <li>🏥 Biomedical research</li>
 <li>📰 Structural knowledge formats</li>
 <li>🛡️ Robustness against adversarial examples</li>
 </ul>
 
-### Available Indices & Resources
+### Available Resources
 
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1em; margin: 2em 0;">
 
 <!-- <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1em; margin: 2em 0;"> -->
 
-<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
+<div style="background: var(--code-bg); padding: 0.5em 1.5em 1.5em 1.5em; border-radius: 8px; border: 1px solid var(--border);">
 <h4>🚫 Blocked Domain Lists</h4>
-<p>Comprehensive lists of restricted domains:</p>
-<ul style="margin: 0.5em 0;">
-<li><strong>487K+ English domains</strong></li>
-<li><strong>333K+ Multilingual domains</strong></li>
+<p>Comprehensive lists of restricted domains</p>
+<ul style="margin: 0.5em 0; list-style-type: none;">
+<li><strong>🇬🇧 487K+ English domains</strong></li>
+<li><strong>🌍 333K+ Multilingual domains</strong></li>
 </ul>
-<a href="/tools/#-coarse-grained-filtering" style="color: var(--primary);">Access Lists →</a>
+<a href="/tools/#-pre-filtered-domain-lists" style="color: var(--primary);">Access Lists →</a>
 </div>
 
 
-<div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
+<div style="background: var(--code-bg); padding: 0.5em 1.5em 1.5em 1.5em; border-radius: 8px; border: 1px solid var(--border);">
 <h4>🧐 Robots.txt Compliance Checker</h4>
 <p>Check any URL of your interest whether it's compliant</p>
 <ul style="margin: 0.5em 0; list-style-type: none;">
@@ -88,21 +88,26 @@ We introduce the Data Compliance Gap (DCG), a metric that quantifies the perform
 <a href="https://pypi.org/project/robots-checker/" style="color: var(--primary);">Install the checker →</a>
 </div>
 
-<!-- <div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; border: 1px solid var(--border);">
+
+<div style="background: var(--code-bg); padding: 0.5em 1.5em 1.5em 1.5em; border-radius: 8px; border: 1px solid var(--border);">
 <h4>🗂️ Compliance Tagging</h4>
-<p>Instance-wise compliance tag for FineWeb family datasets:</p>
+<p>Instance-wise compliance tag for FineWeb family datasets</p>
 <ul style="margin: 0.5em 0; list-style-type: none;">
 <li><strong>🍷 FineWeb</strong></li>
 <li><strong>🥂 FineWeb2</strong></li>
 <li><strong>📚 FineWeb-Edu</strong></li>
 
 </ul>
-<a href="/datasets/" style="color: var(--primary);">Browse Tags →</a>
-</div> -->
-
-
+<a href="/tools/#-document-wise-compliance-tag" style="color: var(--primary);">Browse Tags →</a>
 </div>
 
-<div style="text-align: center; margin: 2em 0;">
+<div style="padding: 1.5em; display: flex; justify-content: center; align-items: center;">
 <a href="/tools/" style="background: var(--primary); color: var(--theme); padding: 12px 24px; text-decoration: none; border-radius: 5px; display: inline-block;">Get Started with Tool →</a>
 </div>
+
+
+</div>
+
+
+</div>
+
