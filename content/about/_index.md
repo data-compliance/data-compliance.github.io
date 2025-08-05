@@ -67,8 +67,9 @@ Our findings suggest that General-purpose LLMs can be trained ethically without 
 
 As the debate around AI and copyright continues, empirical evidence is crucial. Our research provides data on the trade-offs between compliance and performance, helping inform AI development practices and standards for ethical AI training.
 
-### ⚖️ License - TODO
-All datasets and tools are released under **TODO** license.
+### ⚖️ License
+- All datasets are released under the [ODC-BY license](https://opendatacommons.org/licenses/by/).
+- Our filtering codes are released under the [MIT License](https://opensource.org/license/mit).
 
 ---
 

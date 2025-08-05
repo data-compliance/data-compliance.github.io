@@ -136,7 +136,7 @@ We are a collaborative team from EPFL and ETH Zürich working as part of the [Sw
 <img src="/authors/Dongyang.png" alt="Dongyang Fan">
 <h3>Dongyang Fan</h3>
 <div class="affiliation">EPFL</div>
-<a href="mailto:dongyang.fan@epfl.ch" class="email-link">dongyang.fan@epfl.ch</a>
+<a href="https://fan1dy.github.io/" class="website-link">personal website</a>
 </div>
 
 <div class="team-member">
@@ -157,7 +157,7 @@ We are a collaborative team from EPFL and ETH Zürich working as part of the [Sw
 <img src="/authors/Ayush.jpg" alt="Ayush Kumar Tarun">
 <h3>Ayush Kumar Tarun</h3>
 <div class="affiliation">EPFL</div>
-<a href="mailto:ayush.tarun@epfl.ch" class="email-link">ayush.tarun@epfl.ch</a>
+<a href="https://ayushkumartarun.github.io/" class="website-link">personal website</a>
 </div>
 
 <div class="team-member">
@@ -171,14 +171,14 @@ We are a collaborative team from EPFL and ETH Zürich working as part of the [Sw
 <img src="/authors/antoine.jpg" alt="Antoine Bosselut">
 <h3>Antoine Bosselut</h3>
 <div class="affiliation">EPFL</div>
-<a href="mailto:antoine.bosselut@epfl.ch" class="email-link">antoine.bosselut@epfl.ch</a>
+<a href="https://atcbosselut.github.io/" class="website-link">personal website</a>
 </div>
 
 <div class="team-member">
 <img src="/authors/imanol.jpeg" alt="Imanol Schlag">
 <h3>Imanol Schlag</h3>
 <div class="affiliation">ETH Zürich</div>
-<a href="mailto:ischlag@ethz.ch" class="email-link">ischlag@ethz.ch</a>
+<a href="https://ischlag.github.io/" class="website-link">personal website</a>
 </div>
 
 </div>

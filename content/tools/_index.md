@@ -75,7 +75,7 @@ Additionally, we offer fine-grained data filtering codes using the checker in ou
 
 ## 🗂️ Document-wise Compliance Tag
 
-Due to data distribution restrictions, we are unable to directly upload the filterd dataset, however, we provide a document-wise compliance tag for easy filtering. For each document in the FineWeb family, we tag it as either compliant or non-compliant.
+Due to data distribution restrictions, we are unable to directly upload the filterd dataset, however, we provide a document-wise compliance tag for easy filtering, using the `robots-checker`. For each document in the FineWeb family, we provide a compliance tag indicating either true or false. True means that the document is from a compliant source. 
 
 <div style="background: var(--code-bg); padding: 1.5em; border-radius: 8px; margin: 1em 0; border: 1px solid var(--border);">
 
