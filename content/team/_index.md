@@ -164,7 +164,7 @@ We are a collaborative team from EPFL and ETH Zürich working as part of the [Sw
 <img src="/authors/Martin.jpeg" alt="Martin Jaggi">
 <h3>Martin Jaggi</h3>
 <div class="affiliation">EPFL</div>
-<a href="mailto:martin.jaggi@epfl.ch" class="email-link">martin.jaggi@epfl.ch</a>
+<!-- <a href="mailto:martin.jaggi@epfl.ch" class="email-link">martin.jaggi@epfl.ch</a> -->
 </a>
 
 <a href="https://atcbosselut.github.io/" class="team-member" style="text-decoration: none; color: inherit;" target="_blank">
