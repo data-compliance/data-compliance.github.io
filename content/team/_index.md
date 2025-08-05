@@ -132,12 +132,12 @@ We are a collaborative team from EPFL and ETH Zürich working as part of the [Sw
 
 <div class="team-grid">
 
-<div class="team-member">
+<!-- <div class="team-member"> -->
+<a href="https://fan1dy.github.io/" class="team-member" style="text-decoration: none; color: inherit;" target="_blank">
 <img src="/authors/Dongyang.png" alt="Dongyang Fan">
 <h3>Dongyang Fan</h3>
 <div class="affiliation">EPFL</div>
-<a href="https://fan1dy.github.io/" class="website-link"></a>
-</div>
+</a>
 
 <div class="team-member">
 <img src="/authors/vinko.jpg" alt="Vinko Sabolčec">
