@@ -57,7 +57,7 @@ Notable performance gaps appear in:
 - **Adversarial robustness**: Resistance to falsified or misleading information
 
 #### Memorization Trade-offs ✍️
-Compliant training reduces verbatim memorization of copyrighted content. However, it also limits acquisition of specific knowledge from restricted sources.
+Compliant training reduces verbatim memorization of copyrighted content without necessarily compromising specific knowledge derived from the publications.
 
 ### 💡 Implications
 
